@@ -17,30 +17,30 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="18" translatesAutoresizingMaskIntoConstraints="NO" id="1e5-jq-WQI">
-                                <rect key="frame" x="20" y="64" width="374" height="798"/>
+                                <rect key="frame" x="30" y="74" width="354" height="758"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Jey-gN-g8L">
-                                        <rect key="frame" x="0.0" y="0.0" width="374" height="380"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="354" height="370"/>
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                     </view>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1an-ch-zJ4">
-                                        <rect key="frame" x="0.0" y="398" width="374" height="400"/>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JfB-3j-kZJ">
+                                        <rect key="frame" x="0.0" y="388" width="354" height="370"/>
                                         <color key="backgroundColor" systemColor="systemTealColor"/>
                                     </view>
                                 </subviews>
                                 <constraints>
-                                    <constraint firstItem="Jey-gN-g8L" firstAttribute="height" secondItem="1an-ch-zJ4" secondAttribute="height" multiplier="0.95" id="mlp-7q-kss"/>
-                                    <constraint firstItem="Jey-gN-g8L" firstAttribute="width" secondItem="1an-ch-zJ4" secondAttribute="width" id="ujY-ls-tvr"/>
+                                    <constraint firstItem="Jey-gN-g8L" firstAttribute="height" secondItem="JfB-3j-kZJ" secondAttribute="height" id="P3G-wv-y3P"/>
+                                    <constraint firstItem="Jey-gN-g8L" firstAttribute="width" secondItem="JfB-3j-kZJ" secondAttribute="width" id="nok-ge-Fsl"/>
                                 </constraints>
                             </stackView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="1e5-jq-WQI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="EHZ-nP-yBO"/>
-                            <constraint firstItem="1e5-jq-WQI" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="Ejd-rb-1N7"/>
-                            <constraint firstItem="1e5-jq-WQI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="20" id="r5l-dP-ihR"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1e5-jq-WQI" secondAttribute="trailing" constant="20" id="x3E-15-Jma"/>
+                            <constraint firstItem="1e5-jq-WQI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="30" id="0LM-wy-ANp"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="1e5-jq-WQI" secondAttribute="bottom" constant="30" id="6ha-wL-PpM"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="1e5-jq-WQI" secondAttribute="trailing" constant="30" id="LsG-8X-yB6"/>
+                            <constraint firstItem="1e5-jq-WQI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="30" id="QZv-Ot-B2k"/>
                         </constraints>
                     </view>
                 </viewController>
